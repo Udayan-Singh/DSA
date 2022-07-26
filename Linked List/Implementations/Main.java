@@ -30,18 +30,28 @@ public class Main {
         /*Functions of Singly Linked List End */
 
         /* Functions for Doubly Linked List Start */
-        DoublyLL li = new DoublyLL();
-        li.insertAtHead(1);
-        li.insertAtHead(2);
-        li.insertAtHead(19);
-        li.insertAtHead(11);
-        li.insertAtTail(3);
-        li.insertAtIndex(25, 2);
-        li.displayFromHead();
-        li.reverseList();
-        li.displayDLLInfo();
+        // DoublyLL li = new DoublyLL();
+        // li.insertAtHead(1);
+        // li.insertAtHead(2);
+        // li.insertAtHead(19);
+        // li.insertAtHead(11);
+        // li.insertAtTail(3);
+        // li.insertAtIndex(25, 2);
+        // li.displayFromHead();
+        // li.reverseList();
+        // li.displayDLLInfo();
 
 
         /* Functions for Doubly Linked List End */
+
+        /* Functions for Circular Linked List */
+        CircularLL l = new CircularLL();
+        l.insertAtTail(23);
+        l.insertAtTail(1);
+        l.insertAtTail(2);
+        l.display();
+        l.delete(1);
+        l.display();
+
     }
 }
