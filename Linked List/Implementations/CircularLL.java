@@ -1,7 +1,5 @@
 package Implementations;
 
-import org.w3c.dom.NodeList;
-
 public class CircularLL {
 
     Node head;
